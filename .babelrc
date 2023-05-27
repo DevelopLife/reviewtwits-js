@@ -1,0 +1,15 @@
+{
+  "plugins": ["@babel/plugin-proposal-optional-chaining"],
+  "presets": [
+    ["minify", {}],
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "browsers": "last 2 versions, > 0.25%, not dead"
+        },
+        "modules": false
+      }
+    ]
+  ]
+}
