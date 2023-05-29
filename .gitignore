@@ -38,3 +38,7 @@ next-env.d.ts
 
 # storybook log
 build-storybook.log
+
+# module file
+/lib
+/src
